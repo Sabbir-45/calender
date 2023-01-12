@@ -1,0 +1,45 @@
+.calender{
+   
+    width: 800px;
+    font-family: Times;
+    font-weight: bold;
+    color: black;
+    margin: auto;
+}
+.month{
+    text-align: center;
+    background: rgb(180, 9, 9);
+    font-size: 80px;
+    gap: 1px;
+    color: black;
+    border:3px solid blue;
+}
+
+table, th, td{
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 25px;
+    border-collapse: collapse;
+    border:5px solid black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+tr, th, td{
+    padding: 15px;
+}
+
+th{
+    background: #009900;
+    color: white;
+    font-family: 'Times New Roman', Times, serif black;
+}
+
+td{
+    background: #00264d;
+    color: rgb(237, 250, 3);
+}
+
+td:hover{
+    background: grey;
+}
